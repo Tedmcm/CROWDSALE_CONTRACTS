@@ -1,5 +1,5 @@
 
-![crowd](https://image.shutterstock.com/image-photo/group-people-holding-cigarette-lighters-600w-687342115.jpg)
+![kisspng](/screenshots_pup/kiss.png)
 
 ## Crowdsale Contracts for the Puppercoin offering
 
@@ -26,7 +26,7 @@ Using Remix, we created a file called `PupperCoin.sol` and created a standard `E
 
 #### ERC20 PupperCoin
 
-We needed to simply use a standard `ERC20Mintable` and `ERC20Detailed` contract, hardcoding `18` as the `decimals` parameter, and leaving the `initial_supply` parameter alone.
+We simply used a standard `ERC20Mintable` and `ERC20Detailed` contract, hardcoding `18` as the `decimals` parameter, and leaving the `initial_supply` parameter alone.
 
 We didn't need to hardcode the decimals, however since most use-cases match Ethereum's default, you may do so.
 
