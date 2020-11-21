@@ -4,7 +4,7 @@
 ## Crowdsale Contracts for the Puppercoin offering
 
 The company has decided to crowdsale their PupperCoin token in order to help fund the network development.
-This network will be used to track the dog breeding activity across the globe in a decentralized way, and allow humans to track the genetic trail of their pets. This is assuming all the necessary legal bodies and have given the green light on creating a crowdsale open to the public. The regulators are requiring us to enable refunds if the crowdsale is successful and the goal is met, and we are only allowed to raise a maximum of 300 Ether. The crowdsale will run for 24 weeks.
+This network will be used to track the dog breeding activity across the globe in a decentralized way, and allow humans to track the genetic trail of their pets. This is assuming all the necessary legal bodies have given the green light on creating a crowdsale open to the public. The regulators are requiring us to enable refunds if the crowdsale is successful and the goal is met, and we are only allowed to raise a maximum of 300 Ether. The crowdsale will run for 24 weeks.
 
 We will need to create an ERC20 token that will be minted through a `Crowdsale` contract that we can leverage from the OpenZeppelin Solidity library.
 
@@ -115,7 +115,10 @@ You can add custom tokens in MyCrypto from the `Add custom token` feature:
 ![add-custom-token](https://i.imgur.com/p1wwXQ9.png)
 
 
+Added the PPC token to Mycrypto Account
+
 ![PPC_MYCRYPTO](/screenshots_pup/PPC_MYCRYPTO.png)
+
 
 You can also do the same for MetaMask. Make sure to purchase higher amounts of tokens in order to see the denomination appear in your wallets as more than a few wei worth.
 
@@ -129,9 +132,9 @@ Deploy the crowdsale to the Kovan or Ropsten testnet, and store the deployed add
 
 
 
-Deployed Address:
+Deployed Address: PupperCoinSale(pupper_sale_address)-0xfA7f286D42a7F45bFF21631350c62E9EC37c5D50
 
-Token Name- PupperCoinSale(pupper_sale_address)-0xfA7f286D42a7F45bFF21631350c62E9EC37c5D50
+Token Name- PupperCoin
 
 Token Symbol- PPC
 
@@ -139,12 +142,4 @@ Crowdsale Cap- 300
 
 Crowdsale Offering Duration- 2 hours
 
-address that bought 100
-0xC99Ad0259Ee92b1e65ccEE75D8C5CB8166a9DBa5
-
-address that bought 100
-0xC01b6BF8152BA03840df221B146320683f7D44e7
-
-address that bought 100
-0xa7C138fc99873e32Bb8E9b2722550ECe3dAD6181
 
