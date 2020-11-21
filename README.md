@@ -130,19 +130,19 @@ Remember, the refund feature of `RefundablePostDeliveryCrowdsale` only allows fo
 
 ### Deploying the Crowdsale
 
-Deploy the crowdsale to the Kovan or Ropsten testnet, and store the deployed address Below. Switch MetaMask to your desired network, and use the `Deploy` tab in Remix to deploy the contracts. Take note of the total gas cost, and compare it to how costly it would be in reality. Since you are deploying to a network that you don't have control over, faucets will not likely give out 300 test Ether. You can simply reduce the goal when deploying to a testnet to an amount much smaller, like 10,000 wei.
+I Deployed the crowdsale to the Kovan or Ropsten testnet, and store the deployed address Below. To do this, Switch MetaMask to your desired network, and use the `Deploy` tab in Remix to deploy the contracts. Take note of the total gas cost, and compare it to how costly it would be in reality. Since you are deploying to a network that you don't have control over, faucets will not likely give out 300 test Ether. You can simply reduce the goal when deploying to a testnet to an amount much smaller, like 10,000 wei.
 
 
 
 
 Deployed Address: PupperCoinSale(pupper_sale_address)-0xfA7f286D42a7F45bFF21631350c62E9EC37c5D50
 
-Token Name- PupperCoin
+Token Name: PupperCoin
 
-Token Symbol- PPC
+Token Symbol: PPC
 
-Crowdsale Cap- 300
+Crowdsale Cap/Goal: 300
 
-Crowdsale Offering Duration- 2 hours
+Crowdsale Offering Duration: 2 hours
 
 
