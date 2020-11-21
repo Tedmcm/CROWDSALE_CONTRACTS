@@ -1,4 +1,5 @@
-![crowd](https://image.shutterstock.com/image-photo/group-people-holding-cigarette-lighters-600w-687342115.jpg)
+
+![kisspng](/screenshots_pup/kiss.png)
 
 ## Crowdsale Contracts for the Puppercoin offering
 
@@ -25,7 +26,7 @@ Using Remix, we created a file called `PupperCoin.sol` and created a standard `E
 
 #### ERC20 PupperCoin
 
-We needed to simply use a standard `ERC20Mintable` and `ERC20Detailed` contract, hardcoding `18` as the `decimals` parameter, and leaving the `initial_supply` parameter alone.
+We simply used a standard `ERC20Mintable` and `ERC20Detailed` contract, hardcoding `18` as the `decimals` parameter, and leaving the `initial_supply` parameter alone.
 
 We didn't need to hardcode the decimals, however since most use-cases match Ethereum's default, you may do so.
 
@@ -60,7 +61,11 @@ When passing the `open` and `close` times, I used `now` and `now + 24 weeks` to 
 
 Build out this contract as follows:
 
-![](/screenshots_contract/.png)
+
+![PUP_Contract1](/screenshots_pup/PUP_Contract1.png)
+
+
+![PUP_Contract2](/screenshots_pup/PUP_CONTRACT2.png)
 
 
 ### Testing the Crowdsale
@@ -71,29 +76,28 @@ When sending Ether to the contract, make sure you hit your `goal` that you set, 
 
 Remember, the refund feature of `RefundablePostDeliveryCrowdsale` only allows for refunds once the crowdsale is closed **and** the goal is met. See the [OpenZeppelin RefundableCrowdsale](https://docs.openzeppelin.com/contracts/2.x/api/crowdsale#RefundableCrowdsale) documentation for details as to why this is logic is used to prevent potential attacks on your token's value.
 
-
-![MYCRYPTO_2_MYCRYPTO](/screenshots_contract/MYCRYPTO_2_MYCRYPTO.png)
-
-
-![SALEDEPLOYER](/screenshots_contract/SALEDEPLOYER.png)
+![MYCRYPTO_2_MYCRYPTO](/screenshots_pup/MYCRYPTO_2_MYCRYPTO.png)
 
 
-![SALE](/screenshots_contract/SALE.png)
+![SALEDEPLOYER](/screenshots_pup/SALEDEPLOYER.png)
 
 
-![PUPPERCOIN](/screenshots_contract/PUPPERCOIN.png)
+![SALE](/screenshots_pup/SALE.png)
 
 
-![SALE_TOKEN_ADDRESSES](/screenshots_contract/SALE_TOKEN_ADDRESSES.png)
+![PUPPERCOIN](/screenshots_pup/PUPPERCOIN.png)
 
 
-![1_TOKEN](/screenshots_contract/1_TOKEN.png)
+![SALE_TOKEN_ADDRESSES](/screenshots_pup/SALE_TOKEN_ADDRESSES.png)
 
 
-![2_TOKEN_BUY](/screenshots_contract/2_TOKEN_BUY.png)
+![1_TOKEN](/screenshots_pup/1_TOKEN.png)
 
 
-![GOAL_REACHED](/screenshots_contract/GOAL_REACHED.png)
+![2_TOKEN_BUY](/screenshots_pup/2_TOKEN_BUY.png)
+
+
+![GOAL_REACHED](/screenshots_pup/GOAL_REACHED.png)
 
 
 
@@ -102,16 +106,18 @@ You can add custom tokens in MyCrypto from the `Add custom token` feature:
 ![add-custom-token](https://i.imgur.com/p1wwXQ9.png)
 
 
-![PPC_MYCRYPTO](/screenshots_contract/PPC_MYCRYPTO.png)
+![PPC_MYCRYPTO](/screenshots_pup/PPC_MYCRYPTO.png)
 
 You can also do the same for MetaMask. Make sure to purchase higher amounts of tokens in order to see the denomination appear in your wallets as more than a few wei worth.
 
-![PPC_ADD_META](/screenshots_contract/PPC_ADD_META.png)
+![PPC_ADD_META](/screenshots_pup/PPC_ADD_META.png)
 
 
 ### Deploying the Crowdsale
 
 Deploy the crowdsale to the Kovan or Ropsten testnet, and store the deployed address Below. Switch MetaMask to your desired network, and use the `Deploy` tab in Remix to deploy the contracts. Take note of the total gas cost, and compare it to how costly it would be in reality. Since you are deploying to a network that you don't have control over, faucets will not likely give out 300 test Ether. You can simply reduce the goal when deploying to a testnet to an amount much smaller, like 10,000 wei.
+
+
 
 
 Deployed Address:
@@ -132,3 +138,4 @@ address that bought 100
 
 address that bought 100
 0xa7C138fc99873e32Bb8E9b2722550ECe3dAD6181
+
