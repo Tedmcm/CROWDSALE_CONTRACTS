@@ -76,36 +76,36 @@ When sending Ether to the contract, make sure you hit your `goal` that you set, 
 
 Remember, the refund feature of `RefundablePostDeliveryCrowdsale` only allows for refunds once the crowdsale is closed **and** the goal is met. See the [OpenZeppelin RefundableCrowdsale](https://docs.openzeppelin.com/contracts/2.x/api/crowdsale#RefundableCrowdsale) documentation for details as to why this is logic is used to prevent potential attacks on your token's value.
 
-Send Transaction to contract wallet in Mycrypto
+## Send Transaction to contract wallet in Mycrypto
 
 ![MYCRYPTO_2_MYCRYPTO](/screenshots_pup/MYCRYPTO_2_MYCRYPTO.png)
 
 
-Deploy PupperCoinSaleDeployer Contract
+## Deploy PupperCoinSaleDeployer Contract
 
 ![SALEDEPLOYER](/screenshots_pup/SALEDEPLOYER.png)
 
-Deploy PupperCoinSale Contract
+## Deploy PupperCoinSale Contract
 
 ![SALE](/screenshots_pup/SALE.png)
 
 
-Deploy PupperCoin Contract
+## Deploy PupperCoin Contract
 ![PUPPERCOIN](/screenshots_pup/PUPPERCOIN.png)
 
 
-Pupper_Sale_Address & Token_Address
+## Pupper_Sale_Address & Token_Address
 ![SALE_TOKEN_ADDRESSES](/screenshots_pup/SALE_TOKEN_ADDRESSES.png)
 
 
-First Token Purchase 100
+## First Token Purchase 100
 ![1_TOKEN](/screenshots_pup/1_token.png)
 
-Second Token Purchase 100
+## Second Token Purchase 100
 ![2_TOKEN_BUY](/screenshots_pup/2_token_buy.png)
 
 
-Sale Goal Reached
+## Sale Goal Reached
 ![GOAL_REACHED](/screenshots_pup/GOAL_REACHED.png)
 
 
