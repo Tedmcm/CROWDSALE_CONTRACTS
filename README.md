@@ -110,17 +110,17 @@ Remember, the refund feature of `RefundablePostDeliveryCrowdsale` only allows fo
 
 
 
-You can add custom tokens in MyCrypto from the `Add custom token` feature:
+## You can add custom tokens in MyCrypto from the `Add custom token` feature:
 
 ![add-custom-token](https://i.imgur.com/p1wwXQ9.png)
 
 
-Added the PPC token to Mycrypto Account
+## Added the PPC token to Mycrypto Account
 
 ![PPC_MYCRYPTO](/screenshots_pup/PPC_MYCRYPTO.png)
 
 
-You can also do the same for MetaMask. Make sure to purchase higher amounts of tokens in order to see the denomination appear in your wallets as more than a few wei worth.
+## You can also do the same for MetaMask. Make sure to purchase higher amounts of tokens in order to see the denomination appear in your wallets as more than a few wei worth.
 
 ![PPC_ADD_META](/screenshots_pup/PPC_ADD_META.png)
 
