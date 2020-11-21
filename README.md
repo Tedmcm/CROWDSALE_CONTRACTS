@@ -1,5 +1,4 @@
-
-![kisspng](/screenshots_pup/kiss.png)
+![crowd](https://image.shutterstock.com/image-photo/group-people-holding-cigarette-lighters-600w-687342115.jpg)
 
 ## Crowdsale Contracts for the Puppercoin offering
 
@@ -26,7 +25,7 @@ Using Remix, we created a file called `PupperCoin.sol` and created a standard `E
 
 #### ERC20 PupperCoin
 
-We simply used a standard `ERC20Mintable` and `ERC20Detailed` contract, hardcoding `18` as the `decimals` parameter, and leaving the `initial_supply` parameter alone.
+We needed to simply use a standard `ERC20Mintable` and `ERC20Detailed` contract, hardcoding `18` as the `decimals` parameter, and leaving the `initial_supply` parameter alone.
 
 We didn't need to hardcode the decimals, however since most use-cases match Ethereum's default, you may do so.
 
@@ -61,12 +60,7 @@ When passing the `open` and `close` times, I used `now` and `now + 24 weeks` to 
 
 Build out this contract as follows:
 
-
-
-![PUP_Contract1](/screenshots_pup/PUP_Contract1.png)
-
-
-![PUP_Contract2](/screenshots_pup/PUP_CONTRACT2.png)
+![](/screenshots_contract/.png)
 
 
 ### Testing the Crowdsale
@@ -77,11 +71,43 @@ When sending Ether to the contract, make sure you hit your `goal` that you set, 
 
 Remember, the refund feature of `RefundablePostDeliveryCrowdsale` only allows for refunds once the crowdsale is closed **and** the goal is met. See the [OpenZeppelin RefundableCrowdsale](https://docs.openzeppelin.com/contracts/2.x/api/crowdsale#RefundableCrowdsale) documentation for details as to why this is logic is used to prevent potential attacks on your token's value.
 
+
+![MYCRYPTO_2_MYCRYPTO](/screenshots_contract/MYCRYPTO_2_MYCRYPTO.png)
+
+
+![SALEDEPLOYER](/screenshots_contract/SALEDEPLOYER.png)
+
+
+![SALE](/screenshots_contract/SALE.png)
+
+
+![PUPPERCOIN](/screenshots_contract/PUPPERCOIN.png)
+
+
+![SALE_TOKEN_ADDRESSES](/screenshots_contract/SALE_TOKEN_ADDRESSES.png)
+
+
+![1_TOKEN](/screenshots_contract/1_TOKEN.png)
+
+
+![2_TOKEN_BUY](/screenshots_contract/2_TOKEN_BUY.png)
+
+
+![GOAL_REACHED](/screenshots_contract/GOAL_REACHED.png)
+
+
+
 You can add custom tokens in MyCrypto from the `Add custom token` feature:
 
 ![add-custom-token](https://i.imgur.com/p1wwXQ9.png)
 
+
+![PPC_MYCRYPTO](/screenshots_contract/PPC_MYCRYPTO.png)
+
 You can also do the same for MetaMask. Make sure to purchase higher amounts of tokens in order to see the denomination appear in your wallets as more than a few wei worth.
+
+![PPC_ADD_META](/screenshots_contract/PPC_ADD_META.png)
+
 
 ### Deploying the Crowdsale
 
@@ -90,18 +116,19 @@ Deploy the crowdsale to the Kovan or Ropsten testnet, and store the deployed add
 
 Deployed Address:
 
-Token Name- PupperCoin
+Token Name- PupperCoinSale(pupper_sale_address)-0xfA7f286D42a7F45bFF21631350c62E9EC37c5D50
 
 Token Symbol- PPC
 
 Crowdsale Cap- 300
 
-Crowdsale Offering Duration- 24 weeks
+Crowdsale Offering Duration- 2 hours
 
+address that bought 100
+0xC99Ad0259Ee92b1e65ccEE75D8C5CB8166a9DBa5
 
-### Submission
+address that bought 100
+0xC01b6BF8152BA03840df221B146320683f7D44e7
 
-Create a Github repo, and a `README.md` file explaining the process for purchasing PupperCoin (or whatever name you came up with).
-
-Ensure that anyone can run the steps and add the token to MyCrypto, or a similar wallet.
-
+address that bought 100
+0xa7C138fc99873e32Bb8E9b2722550ECe3dAD6181
