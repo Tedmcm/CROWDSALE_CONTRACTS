@@ -78,12 +78,13 @@ Remember, the refund feature of `RefundablePostDeliveryCrowdsale` only allows fo
 
 ## Send Transaction to contract wallet in Mycrypto
 
-![MYCRYPTO_2_MYCRYPTO](/screenshots_pup/MYCRYPTO_2_MYCRYPTO.png)
+![SEND2WALLET](/screenshots_pup/SEND2WALLET.png)
 
 
 ## Deploy PupperCoinSaleDeployer Contract
 
 ![SALEDEPLOYER](/screenshots_pup/SALEDEPLOYER.png)
+
 
 ## Deploy PupperCoinSale Contract
 
@@ -99,9 +100,11 @@ Remember, the refund feature of `RefundablePostDeliveryCrowdsale` only allows fo
 
 
 ## First Token Purchase 100
+
 ![1_TOKEN](/screenshots_pup/1_token.png)
 
 ## Second Token Purchase 100
+
 ![2_TOKEN_BUY](/screenshots_pup/2_token_buy.png)
 
 
@@ -122,7 +125,7 @@ Remember, the refund feature of `RefundablePostDeliveryCrowdsale` only allows fo
 
 ## You can also do the same for MetaMask. Make sure to purchase higher amounts of tokens in order to see the denomination appear in your wallets as more than a few wei worth.
 
-![PPC_ADD_META](/screenshots_pup/PPC_ADD_META.png)
+![PPCMETA](/screenshots_pup/PPCMETA.png)
 
 
 ### Deploying the Crowdsale
